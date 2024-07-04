@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Keshav Rajesh Sharma </h1>
+        <p>Hello Everyone,</p>
+        <p>My name is Keshav Sharma<br>and I am an aspiring and passionate Web Developer. I enjoy coding and am thrilled
+            to learn new skills. I am skilled in Web Development and Django Python.</p>
+        <img src="./image3.jpg" alt="Profile Picture">
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently pursuing my bachelor degree in Bachelors of Computer Applications in The Assam Kaziranga
+            University. I am in my final year.</p><br>
+        <p>I enjoy sports activity and participating in public speaking.<br>
+        I am a national level Kabbadi player.</p>
+        <p>I also own a business. </p>
+
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <section>
+        <div class="project-gallery">
+            <div class="project">
+                <h3>A simple calculator</h3>
+                <p>The Simple Calculator is a web-based application designed to perform basic arithmetic operations such
+                    as addition, subtraction, multiplication, and division. The calculator provides a user-friendly
+                    interface for quick and easy calculations. This project showcases fundamental skills in web
+                    development, including HTML, CSS, and JavaScript.</p>
+                <img src="./calculator.jpg" alt="Project Image">
+                <h3>To-Do List</h3>
+                <p>The To-Do List application is a straightforward, user-friendly tool designed to help individuals
+                    manage their tasks efficiently. This application allows users to create, read, update, and delete
+                    (CRUD) tasks, ensuring they can keep track of their daily activities with ease.</p>
+               <img src="./To-do.jpg" alt="Project Image">
+                <h3>Catering Application</h3>
+                <p>The Catering Reservation and Ordering System is a comprehensive web application designed to
+                    streamline the process of booking catering services and ordering food. It caters to both
+                    administrators and users, providing a seamless experience for managing reservations, orders, and
+                    product details. This system ensures efficiency, accuracy, and ease of use for catering businesses
+                    and their clients.</p>
+                <img src="./catering.jpg" alt="Project Image">
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <a href="./Resume.pdf" target="_blank">Download Resume</a>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
